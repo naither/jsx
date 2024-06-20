@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding: 15px;
+
 }
 
 .App-logo {
@@ -35,4 +37,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+.lista-producto {
+  color:rgb(13, 37, 29);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
 }
