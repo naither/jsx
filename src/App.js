@@ -2,7 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import ListaProductos from './listaProductos';
+
+import listaTareas from './listaTareas';
+import listaNotas from './listaNotas'
 /*
+
 //JSX
 //componentes
 
@@ -74,6 +78,8 @@ function App() {
   return (
     <div ClassName='App'>
     <ListaProductos/>  
+    <listaTAreas/>
+    <listaNotas/>
     <h1>Primera Aplicacion</h1> 
     </div>
 
